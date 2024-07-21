@@ -95,7 +95,6 @@ def generate_keys(value_int, new_keys):
                 print(f"Data Allocated: {referral_count} GB")
                 print(f"License: {license}")
 
-                # Отправляем ключ поштучно
                 yield new_key_info
         except Exception as er:
             print("Error.")
